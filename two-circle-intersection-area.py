@@ -27,7 +27,7 @@ class Circle:
         self.r = r
         self.c = p
     def __str__(self):
-        mystring = "r=" + str(self.r) + ", center=" + str(self.c)
+        mystring = "radius=" + str(self.r) + ", center=" + str(self.c)
         return mystring
     def area(self):
         return str(PI*p(self.r))
@@ -47,19 +47,19 @@ def triangle_area(a,b,theta):
 def cone_area(r,theta):
     return p(r)*PI*theta/(2*PI)
 
-#-------------------------
+#------------- INPUT ------------- 
 p1 = Point(2.1,1.8)
-p2 = Point(6.3,2.5)
-r1 = 2
-r2 = 3
-#-------------------------
+p2 = Point(5.3,2.5)
+r1 = 1.9
+r2 = 3.2
+#------------- INPUT ------------- 
 
 c1 = Circle(r1,p1)
 c2 = Circle(r2,p2)
-print("============================================")
+print("=================================================================")
 print("Circle-1: " + str(c1) + " | Area=" + c1.area())
 print("Circle-2: " + str(c2) + " | Area=" + c2.area())
-print("============================================")
+print("=================================================================")
 
 d = distance(c1.c, c2.c)
 external_distance_bound = c1.r + c2.r
@@ -81,5 +81,5 @@ else:
     t_area2 = triangle_area(c2.r,c2.r,theta2)
     c_area2 = cone_area(c2.r,theta2)
 
-    two_circle_overlap_area=c_area1 + c_area2 - t_area1 - t_area2
+    two_circle_overlap_area = c_area1 + c_area2 - t_area1 - t_area2
     print("Overlap Area: " + str(two_circle_overlap_area))
