@@ -1,6 +1,6 @@
 # Two-Circle-Intersection-Area
 
-Calculates the overlap area of two given circles. Implemented in python. 
+The program calculates the overlap area of two given circles. (implemented in python)
 
 ## Step
 1. Open the code. 
