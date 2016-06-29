@@ -2,7 +2,7 @@
 
 The program calculates the overlap area of two given circles. (implemented in python)
 
-## Step
+## Steps
 1. Open the code. 
 2. Replace the radii and the center coordinates of the two circles (`p1, p2, r1, r2`).
 3. Excute the code. 
