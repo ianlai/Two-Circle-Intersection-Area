@@ -60,18 +60,18 @@ def triangle_area(a,b,theta):
 def cone_area(r,theta):
     return p(r)*PI*theta/(2*PI)
 
-if "--x1" in sys.argv:
-    x1 = float(sys.argv[sys.argv.index("--x1")+1])
-if "--y1" in sys.argv:
-    y1 = float(sys.argv[sys.argv.index("--y1")+1])
-if "--r1" in sys.argv:
-    r1 = float(sys.argv[sys.argv.index("--r1")+1])
-if "--x2" in sys.argv:
-    x2 = float(sys.argv[sys.argv.index("--x2")+1])
-if "--y2" in sys.argv:
-    y2 = float(sys.argv[sys.argv.index("--y2")+1])
-if "--r2" in sys.argv:
-    r2 = float(sys.argv[sys.argv.index("--r2")+1])
+if "-x1" in sys.argv:
+    x1 = float(sys.argv[sys.argv.index("-x1")+1])
+if "-y1" in sys.argv:
+    y1 = float(sys.argv[sys.argv.index("-y1")+1])
+if "-r1" in sys.argv:
+    r1 = float(sys.argv[sys.argv.index("-r1")+1])
+if "-x2" in sys.argv:
+    x2 = float(sys.argv[sys.argv.index("-x2")+1])
+if "-y2" in sys.argv:
+    y2 = float(sys.argv[sys.argv.index("-y2")+1])
+if "-r2" in sys.argv:
+    r2 = float(sys.argv[sys.argv.index("-r2")+1])
 if "-n" in sys.argv:
     numerical = True
 if "--numerical" in sys.argv:
