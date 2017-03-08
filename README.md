@@ -2,9 +2,9 @@
 
 The program calculates the overlap area of two given circles. (implemented in python)
 
-Usage-1: `python3 two-circle-intersection-area.py`
-Usage-2: `python3 two-circle-intersection-area.py --x1 5 --y1 3 --r1 4 --x2 5.6 --y2 4.2 --r2 6`
-Usage-3: `python3 two-circle-intersection-area.py -n`
+* Usage-1: `python3 two-circle-intersection-area.py`
+* Usage-2: `python3 two-circle-intersection-area.py --x1 5 --y1 3 --r1 4 --x2 5.6 --y2 4.2 --r2 6`
+* Usage-3: `python3 two-circle-intersection-area.py -n`
 
 ## Usage-1
 1. Open the code. 
